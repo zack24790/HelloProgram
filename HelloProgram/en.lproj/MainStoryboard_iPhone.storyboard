@@ -25,6 +25,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="helloButtonPressed:" destination="2" eventType="touchUpInside" id="lNR-Bw-97G"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="bLB-Pt-190">
                                 <rect key="frame" x="139" y="45" width="42" height="21"/>
@@ -42,6 +45,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="helloLabel" destination="bLB-Pt-190" id="4Zw-dz-nHW"/>
+                        <outlet property="helloTextField" destination="JUv-bg-aa0" id="Llc-EE-5os"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="299" y="84"/>
@@ -50,6 +57,11 @@
     <classes>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="helloButtonPressed:" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="helloLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="helloTextField" candidateClass="UITextField"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
