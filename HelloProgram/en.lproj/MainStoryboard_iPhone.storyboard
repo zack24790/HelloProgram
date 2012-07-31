@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vlz-3O-DA2">
-                                <rect key="frame" x="83" y="129" width="155" height="37"/>
+                                <rect key="frame" x="83" y="127" width="155" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <state key="normal" title="Hello Button">
@@ -37,13 +37,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Text Here" minimumFontSize="17" id="JUv-bg-aa0">
-                                <rect key="frame" x="112" y="80" width="97" height="31"/>
+                                <rect key="frame" x="62" y="80" width="197" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.022591865382948204" blue="0.38782269021739135" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="helloLabel" destination="bLB-Pt-190" id="4Zw-dz-nHW"/>
@@ -51,7 +51,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="299" y="84"/>
+            <point key="canvasLocation" x="319" y="110"/>
         </scene>
     </scenes>
     <classes>
